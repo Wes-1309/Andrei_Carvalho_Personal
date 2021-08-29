@@ -822,7 +822,7 @@ aside{
 
 /*DICAS*/
 .dicas{
-    height: 153vh;
+    height: 110%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -896,7 +896,7 @@ aside{
     }
 
     .video1 iframe, .video2 iframe{
-        width: 360px;
+        width: 100%;
         height: 250px;
     }
 
@@ -920,7 +920,7 @@ aside{
 /*DEPOIMENTOS*/
 
 .depoimentos{
-    height: 120vh;
+    height: 95vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -956,7 +956,7 @@ aside{
     display: flex;
     position: absolute;
     margin-left: 50%;
-    margin-top: 14.5%;
+    margin-top: 13.5%;
 }
 
 .heart i{
