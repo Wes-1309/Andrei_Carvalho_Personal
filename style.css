@@ -129,7 +129,7 @@ aside{
     height: 20px;
     cursor: pointer;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #menu-opener i{
@@ -139,7 +139,7 @@ aside{
 
 #menu-mobile{
     width: 0;
-    height: 30vh;
+    height: 26vh;
     background-color: green;
     overflow-x: hidden;
     overflow-y: auto;
@@ -164,7 +164,6 @@ aside{
     text-transform: uppercase;
     text-decoration: none;
     font-size: 0.8rem;
-
 }
 
 #menu-mobile li:hover{
@@ -172,13 +171,14 @@ aside{
 }
 
 .menu-opened{
-    width: 200px !important;
+    width: 150px !important;
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:500px) {
     
     .principal{
-        height: 30vh;
+        height: 110vh;
+        width: 105%;
     }
 
     header{
@@ -187,18 +187,19 @@ aside{
 
     aside{
         display: flex;
+        margin-top: 30px;
     }
 
     #menu-opener{
-        margin-right: 50px;
+        margin-right: 30px;
     }
 
     .whatsapp-link{
         position: fixed;
         width: 30px;
         height: 30px;
-        bottom: 100px;
-        right: 70px;
+        bottom: 9%;
+        right: 12%;
         z-index: 9999 !important;
     }
     
@@ -210,7 +211,7 @@ aside{
 
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
+@media screen and (min-width:500px) and (max-width:800px) {
     
     .principal{
         height: 41vh;
@@ -237,7 +238,7 @@ aside{
     .social li{
         margin: 15px 20px 0 0;
     }
-
+    
 }
 
 /* BANNER PRINCIPAL */
@@ -267,18 +268,20 @@ aside{
     width: 50%;
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:500px) {
 
     .slogan h1{
-        font-size: 0.7rem;
-        margin-top: 60px;
-        margin-left: 50px;
+        font-size: 1.5rem;
+        margin-top: 40%;
+        margin-left: 10%;
+        width: 80%;
     }
 
     .slogan p{
-        font-size: 0.3rem;
-        margin-left: 50px;
-        margin-top: 10px;
+        font-size: 1rem;
+        margin-top: 10%;
+        margin-left: 10%;
+        width: 80%;
     }
 
 }
@@ -353,42 +356,46 @@ aside{
     bottom: 0;
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:500px) {
    
     .sobre{
-        height: 40vh;
+        height: 100%;
     }
     
     .sobre-item h1{
-        margin-top: 40px;
-        margin-left: 50px;
-        font-size: 1rem;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.8rem;
+        width: 100%;
     }
 
     .sobre-item h2{
-        margin-top: 20px;
-        margin-left: 50px;
-        font-size: 0.7rem;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 60%;
     }
     
     .sobre-item h3{
-        margin-left: 50px;
-        font-size: 0.7rem;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 60%;
     }
     
     .sobre-item p{
-        margin-top: 5px;
-        margin-left: 50px;
-        font-size: 0.5rem;
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 0.8rem;
+        text-align: center;
     }
 
     .sobre-item img{
-        height: 170px;
-        margin-left: 70%;
+        height: 350px;
+        margin-left: 57%;
     }
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
+@media screen and (min-width:501px) and (max-width:800px) {
 
     .slogan h1{
         font-size: 1.5rem;
@@ -426,7 +433,7 @@ aside{
 /* DIFERENCIAL */
 
 .diferencial{
-    height: 100vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -434,7 +441,7 @@ aside{
 }
 
 .diferencial-titulo{
-    margin-top: 75px;
+    margin-top: 5%;
 }
 
 .diferencial-titulo h1{
@@ -445,57 +452,62 @@ aside{
 
 .diferencial-banner{
     display: flex;
-    margin-top: 30px;
+    margin-top: 3%;
     margin-left: 2%;
     width: 90%;
 }
 
-.db1{
+.db1, .db2, .db3, .db4{
     border: 1px solid darkgreen;
     box-shadow: 7px 2px 5px 0px rgba(0, 100, 0, 0.363);
     border-radius: 15px;
-    height: 60vh;
+    height: 50vh;
     padding: 30px 15px;
     margin-right: 2%;
     width: 25%;
 }
 
-.db1 img{
+.db1 img, .db2 img, .db3 img, .db4 img{
     height: 100px;
     width: 100px;
     margin-left: 31%;
     border-radius: 10px;
 }
 
-.db1 h2{
+.db1 h2, .db2 h2, .db3 h2, .db4 h2{
     text-align: center;
     width: 100%;
     margin-top: 15px;
     color: darkgreen;
 }
 
-.db1 p{
+.db1 p, .db2 p, .db3 p, .db4 p{
     text-align: center;
     width: 100%;
     margin-top: 15px;
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+
+
+@media screen and (min-width:0px) and (max-width:500px) {
     
     .diferencial{
-        height: 260vh;
-        display: block;
+        height: 100%;
+        display: Flex;
     }
 
     .diferencial-banner{
-        display: block;
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        margin-left: 10%;
+        margin-left: 5%;
+        position: relative;
     }
 
     .diferencial-titulo{
         width: 80%;
-        margin-left: 10%;
+        margin-left: 13%;
+        margin-top: 5%;
     }
     .diferencial-titulo h1{
         font-size: 1.5rem;
@@ -503,17 +515,47 @@ aside{
     }
 
     .parallax{
-        height: 20vh;
+        height: 30vh;
+        width: 105%;
     }
 
-    .db1{
-        width: 80%;
+    .db1, .db2, .db3, .db4{
+        width: 45%;
+        height: 60%;
         margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
+
+    .db1 img, .db2 img, .db3 img, .db4 img{
+        height: 80px;
+        width: 80px;
+        margin-left: 20%;
+    }
+
+    .db1 h2, .db2 h2, .db3 h2, .db4 h2{
+        font-size: 1.2rem;
+    }
+
+    .db2{
+        position: absolute;
+        margin-left: 50%;
+        height: 48.3%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
+
+    .db4{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 129%;
+        height: 48.3%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
     }
 
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
+@media screen and (min-width:501px) and (max-width:800px) {
     
 
 
@@ -531,7 +573,7 @@ aside{
 
 .plano-titulo{
     display: block;
-    margin-top: 60px;
+    margin-top: 7%;
     text-align: center;
     width: 100%;
 }
@@ -549,13 +591,13 @@ aside{
 .plano-container{
     width: 90%;
     margin-left: 5%;
-    margin-top: 20px;
+    margin-top: 3%;
     display: flex;
 }
 
 .plano-left{
     width: 35%;
-    height: 72.5vh;
+    height: 100%;
     text-align: center;
     background-color: rgb(27, 216, 27);
     border-radius: 25px;
@@ -612,15 +654,21 @@ aside{
 
 .plano-right-container{
     width: 100%;
+    margin-top: 2%;
+}
+
+.plano-left-container{
+    width: 100%;
+    margin-top: 2%;
 }
 
 .plano-cima{
     text-align: center;
     border: 1px solid green;
     border-radius: 25px;
-    padding: 0 15px;
+    padding: 0 20px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .plano-cima h1{
@@ -688,20 +736,22 @@ aside{
     font-size: 2.5rem;
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:500px) {
     
     .plano{
-        height: 165vh;
+        height: 130vh;
         display: block;
     }
 
     .plano-container{
         display: block;
+        width: 100%;
     }
 
     .plano-titulo{
         width: 80%;
         margin-left: 10%;
+        margin-top: 12%;
     }
 
     .plano-titulo h1{
@@ -711,17 +761,33 @@ aside{
     .plano-left{
         display: block;
         width: 90%;
-        margin-left: 5%;
+        margin-left: 2%;
+    }
+
+    .plano-right{
+        margin-top: 5%;
     }
 
     .plano-right-container{
-        margin-top: 5%;
-        margin-left: 11%;
+        margin-top: 3%;
+        margin-left: 3%;
     }
 
-    .plano-right-container, .plano-cima, .plano-baixo{
+    .plano-left-container{
+        margin-top: 3%;
+        margin-left: 13%;
+    }
+
+    .plano-right-container, .plano-right-container, 
+    .plano-cima, .plano-baixo{
         display: block;
         flex-direction: column;
+    }
+
+    .plano-cima,
+    .plano-baixo{
+        width: 95%;
+        height: 50%;
     }
 
     .plano-cima h1,
@@ -739,11 +805,16 @@ aside{
     }
 
     .plano-right-container{
-        margin-right: -30px;
+        margin-right: -10%;
     }
+
+    .plano-left-container{
+        margin-right: -10%;
+    }
+
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
+@media screen and (min-width:501px) and (max-width:800px) {
     
 
 
@@ -784,6 +855,11 @@ aside{
     margin-bottom: 15px;
 }
 
+.video1 iframe, .video2 iframe{
+    width: 630px;
+    height: 360px;
+}
+
 .dicas-img img{
     width: 100%;
 }
@@ -792,16 +868,17 @@ aside{
     box-shadow: 7px 2px 5px 0px rgba(0, 100, 0, 0.363);
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:500px) {
     
     .dicas{
         display: block;
-        height: 80vh;
+        height: 100%;
         background: none;
     }
 
     .dicas-video{
         display: block;
+        margin-left: 2%;
     }
 
     .dicas-titulo{
@@ -819,13 +896,17 @@ aside{
     }
 
     .video1 iframe, .video2 iframe{
-        width: 355px;
-        height: 150px;
+        width: 360px;
+        height: 250px;
+    }
+
+    .video1{
+        margin-bottom: -10%;
     }
 
     .dicas-img img{
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+        margin-top: -7%;
     }
 
 }
@@ -912,9 +993,8 @@ aside{
 @media screen and (min-width:0px) and (max-width:480px) {
    
     .depoimentos{
-        height: 300vh;
-        width: 80%;
-        margin-left: 10%;
+        height: 100%;
+        width: 100%;
     }
 
     .depoimentos-titulos h1{
@@ -923,12 +1003,22 @@ aside{
 
     .depoimentos-container{
         display: block;
+        margin-left: -2%;
     }
 
     .depoimentos-alunos img{
         height: 180%;
-        width: 700%;
+        width: 655%;
 
+    }
+
+    .depoimentos-border{
+        margin-top: 4%;
+    }
+
+    .heart{
+        margin-top: 53%;
+        margin-left: 45%;
     }
 
 }
@@ -1035,11 +1125,12 @@ aside{
     cursor: pointer;
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:500px) {
    
     .contato{
         height: 85vh;
         display: flex;
+        width: 100%;
     }
 
     .developer{
