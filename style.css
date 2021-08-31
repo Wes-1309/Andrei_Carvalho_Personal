@@ -202,8 +202,7 @@ aside{
         right: 12%;
         z-index: 9999 !important;
     }
-    
-    
+        
     .whatsapp-link a{
         color: rgb(27, 216, 27);
         font-size: 4rem;
@@ -214,31 +213,29 @@ aside{
 @media screen and (min-width:500px) and (max-width:800px) {
     
     .principal{
-        height: 41vh;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    header{
+        width: 800px;
     }
 
     .logo{
-        font-size: 30px;
-        width: 10%;
-        text-align: left;
-        margin-left: 5%;
-        margin-top: 2%;
+        font-size: 10px;
+        width: 15%;
+    }
+
+    .social ul{
+        margin-left: 30px;
     }
 
     .menu li{
-        margin: 18px 20px 0 0;
+        margin: 15px 25px 0 0;
         font-size: 1rem;
     }
-
-    .social{
-        width: 20%;
-        margin-left: 7%;
-    }
-
-    .social li{
-        margin: 15px 20px 0 0;
-    }
-    
+   
 }
 
 /* BANNER PRINCIPAL */
@@ -274,19 +271,19 @@ aside{
         font-size: 1.5rem;
         margin-top: 80%;
         margin-left: 10%;
-        width: 80%;
+        width: 100%;
     }
 
     .slogan p{
         font-size: 1rem;
         margin-top: 10%;
         margin-left: 10%;
-        width: 80%;
+        width: 100%;
     }
 
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
+@media screen and (min-width:501px) and (max-width:800px) {
 
     .slogan h1{
         font-size: 1.5rem;
@@ -434,7 +431,7 @@ aside{
 /* DIFERENCIAL */
 
 .diferencial{
-    height: 75vh;
+    height: 75%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -462,7 +459,7 @@ aside{
     border: 1px solid darkgreen;
     box-shadow: 7px 2px 5px 0px rgba(0, 100, 0, 0.363);
     border-radius: 15px;
-    height: 50vh;
+    height: 50%;
     padding: 30px 15px;
     margin-right: 2%;
     width: 25%;
@@ -566,7 +563,7 @@ aside{
 /*PLANO*/
 
 .plano{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -918,8 +915,47 @@ aside{
 
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
+@media screen and (min-width:501px) and (max-width:800px) {
     
+    .dicas{
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .dicas-video{
+        display: flex;
+        margin-left: 2%;
+    }
+
+    .dicas-titulo{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .dicas-titulo h1{
+        font-size: 1rem;
+        margin-top: 10%;
+    }
+
+    .video1, .video2{
+        box-shadow: none;
+    }
+
+    .video1 iframe, .video2 iframe{
+        display: block;
+        width: 30%;
+        height: 50%;
+    }
+
+    .video1{
+        margin-bottom: -10%;
+    }
+
+    .dicas-img img{
+        width: 100%;
+        margin-top: -7%;
+    }
 
 
 }
@@ -927,7 +963,7 @@ aside{
 /*DEPOIMENTOS*/
 
 .depoimentos{
-    height: 95vh;
+    height: 90%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -936,7 +972,7 @@ aside{
 
 .depoimentos-titulos{
     display: block;
-    margin-top: 60px;
+    margin-top: 5%;
     text-align: center;
     width: 100%;
 }
@@ -955,20 +991,8 @@ aside{
     width: 80%;
     margin-left: 10%;
     margin-top: 2%;
-    height: 20px;
+    height: 15%;
     border-bottom: 1px solid rgb(27, 216, 27);
-}
-
-.heart{
-    display: flex;
-    position: absolute;
-    margin-left: 50%;
-    margin-top: 13.5%;
-}
-
-.heart i{
-    font-size: 2rem;
-    color: rgb(27, 216, 27);
 }
 
 .depoimentos-container{
@@ -997,7 +1021,7 @@ aside{
     box-shadow: 5px 5px 3px rgb(2,136,38,0.5);
 }
 
-@media screen and (min-width:0px) and (max-width:480px) {
+@media screen and (min-width:0px) and (max-width:500px) {
    
     .depoimentos{
         height: 100%;
@@ -1021,11 +1045,6 @@ aside{
 
     .depoimentos-border{
         margin-top: 4%;
-    }
-
-    .heart{
-        margin-top: 53%;
-        margin-left: 45%;
     }
 
 }
