@@ -38,7 +38,7 @@ html{
     width: 100%;
     position: relative;
     background: url(img/academia.jpg) no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
 }
 
@@ -174,11 +174,12 @@ aside{
     width: 150px !important;
 }
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation: portrait){
     
     .principal{
         height: 110vh;
-        width: 100%;
+        width: 100vw;
+        overflow: hidden;
     }
 
     header{
@@ -191,15 +192,15 @@ aside{
     }
 
     #menu-opener{
-        margin-right: 30px;
+        margin-right: 90px;
     }
 
     .whatsapp-link{
         position: fixed;
         width: 30px;
         height: 30px;
-        bottom: 9%;
-        right: 12%;
+        bottom: 12%;
+        right: 15%;
         z-index: 9999 !important;
     }
         
@@ -210,21 +211,72 @@ aside{
 
 }
 
-@media screen and (min-width:500px) and (max-width:800px) {
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
     
     .principal{
-        height: 100%;
+        height: 120vh;
+        width: 120vw;
+        overflow: hidden;
+    }
+
+    header{
+        width: 100%;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .logo{
+        font-size: 2rem;
+        width: 12%;
+        margin-top: 1.2%;
+    }
+
+    .social ul{
+        margin-left: 0%;
+        width: 80%;
+    }
+
+    .menu li{
+        margin: 15px 15px 0 0;
+        font-size: 0.9rem;
+    }
+
+    .social ul{
+        margin-left: -25px;
+    }
+
+    .social li{
+        margin: 13px 20px 0 0;
+        font-size: 1.2rem;
+    }
+
+    .whatsapp-link{
+        bottom: 15%;
+        right: 15%;
+    }
+  
+    .whatsapp-link a{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+    
+    .principal{
+        height: 120vh;
         width: 100%;
         overflow: hidden;
     }
 
     header{
-        width: 800px;
+        width: 85%;
     }
 
     .logo{
-        font-size: 10px;
-        width: 15%;
+        font-size: 2.2rem;
+        width: 20%;
+        margin-top: 1.5%;
     }
 
     .social ul{
@@ -235,7 +287,21 @@ aside{
         margin: 15px 25px 0 0;
         font-size: 1rem;
     }
-   
+
+    .social li{
+        margin: 10px 30px 0 0;
+        font-size: 1.5rem;
+    }
+
+    .whatsapp-link{
+        position: fixed;
+        width: 30px;
+        height: 30px;
+        bottom: 25%;
+        right: 20%;
+        z-index: 9999 !important;
+    }
+  
 }
 
 /* BANNER PRINCIPAL */
@@ -265,36 +331,56 @@ aside{
     width: 50%;
 }
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation: portrait) {
 
     .slogan h1{
-        font-size: 1.5rem;
+        font-size: 1rem;
         margin-top: 80%;
-        margin-left: 10%;
-        width: 100%;
+        margin-left: 5%;
+        width: 80%;
     }
 
     .slogan p{
-        font-size: 1rem;
+        font-size: 0.6rem;
         margin-top: 10%;
-        margin-left: 10%;
-        width: 100%;
+        margin-left: 5%;
+        width: 80%;
     }
 
 }
 
-@media screen and (min-width:501px) and (max-width:800px) {
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
 
     .slogan h1{
-        font-size: 1.5rem;
-        margin-top: 150px;
+        font-size: 1rem;
+        margin-top: 20%;
         margin-left: 20px;
+        width: 80%;
     }
 
     .slogan p{
         font-size: 0.8rem;
         margin-left: 20px;
         margin-top: 20px;
+        width: 75%;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+
+    .slogan h1{
+        font-size: 1.5rem;
+        margin-top: 15%;
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .slogan p{
+        font-size: 0.8rem;
+        margin-left: 20px;
+        margin-top: 3%;
+        width: 75%;
     }
 
 }
@@ -353,7 +439,7 @@ aside{
     bottom: 0;
 }
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation: portrait) {
    
     .sobre{
         height: 100%;
@@ -388,23 +474,91 @@ aside{
     }
 
     .sobre-item img{
-        height: 350px;
+        height: 200px;
         margin-left: 57%;
     }
 }
 
-@media screen and (min-width:501px) and (max-width:800px) {
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
 
-    .slogan h1{
-        font-size: 1.5rem;
-        margin-top: 150px;
-        margin-left: 20px;
+    .sobre{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sobre-item h1{
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.8rem;
+        width: 100%;
     }
 
-    .slogan p{
+    .sobre-item h2{
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 60%;
+    }
+    
+    .sobre-item h3{
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 60%;
+    }
+    
+    .sobre-item p{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 6%;
         font-size: 0.8rem;
-        margin-left: 20px;
-        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sobre-item img{
+        height: 350px;
+        margin-left: 65%;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+
+    .sobre{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .sobre-item h1{
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1.8rem;
+        width: 100%;
+    }
+
+    .sobre-item h2{
+        margin-top: 5%;
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 60%;
+    }
+    
+    .sobre-item h3{
+        margin-left: 5%;
+        font-size: 1rem;
+        width: 60%;
+    }
+    
+    .sobre-item p{
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-bottom: 6%;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    .sobre-item img{
+        height: 350px;
+        margin-left: 70%;
     }
 
 }
@@ -487,7 +641,7 @@ aside{
 
 
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation: portrait) {
     
     .diferencial{
         height: 100%;
@@ -546,17 +700,145 @@ aside{
     .db4{
         position: absolute;
         margin-left: 50%;
-        margin-top: 129%;
-        height: 48.3%;
+        margin-top: 135%;
+        height: 48%;
         margin-bottom: 5%;
         box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
     }
 
 }
 
-@media screen and (min-width:501px) and (max-width:800px) {
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
     
+    .diferencial{
+        height: 100%;
+        display: Flex;
+        width: 100%;
+    }
 
+    .diferencial-banner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 5%;
+        position: relative;
+    }
+
+    .diferencial-titulo{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .diferencial-titulo h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .parallax{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .db1, .db2, .db3, .db4{
+        width: 45%;
+        height: 60%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
+
+    .db1 img, .db2 img, .db3 img, .db4 img{
+        height: 80px;
+        width: 80px;
+        margin-left: 33%;
+    }
+
+    .db1 h2, .db2 h2, .db3 h2, .db4 h2{
+        font-size: 1.2rem;
+    }
+
+    .db2{
+        position: absolute;
+        margin-left: 50%;
+        height: 45%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
+
+    .db4{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 57%;
+        height: 45%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+
+    .diferencial{
+        height: 100%;
+        display: Flex;
+        width: 100%;
+    }
+
+    .diferencial-banner{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 5%;
+        position: relative;
+    }
+
+    .diferencial-titulo{
+        width: 80%;
+        margin-left: 13%;
+        margin-top: 5%;
+    }
+    .diferencial-titulo h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .parallax{
+        height: 50vh;
+        width: 100%;
+    }
+
+    .db1, .db2, .db3, .db4{
+        width: 45%;
+        height: 60%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
+
+    .db1 img, .db2 img, .db3 img, .db4 img{
+        height: 80px;
+        width: 80px;
+        margin-left: 33%;
+    }
+
+    .db1 h2, .db2 h2, .db3 h2, .db4 h2{
+        font-size: 1.2rem;
+    }
+
+    .db2{
+        position: absolute;
+        margin-left: 50%;
+        height: 44%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
+
+    .db4{
+        position: absolute;
+        margin-left: 50%;
+        margin-top: 41%;
+        height: 44%;
+        margin-bottom: 5%;
+        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
+    }
 
 }
 
@@ -735,10 +1017,10 @@ aside{
     font-size: 2.5rem;
 }
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation:portrait) {
     
     .plano{
-        height: 100%;
+        height: 120%;
         display: block;
         width: 100%;
     }
@@ -769,7 +1051,7 @@ aside{
     }
 
     .plano-right-container{
-        margin-top: 3%;
+        margin-top: 2%;
         margin-left: 3%;
     }
 
@@ -784,13 +1066,15 @@ aside{
         flex-direction: column;
     }
 
-    .plano-cima,
+    .plano-cima{
+        width: 100%;
+        height: 50%;
+        margin-top: -10%;
+    }
     .plano-baixo{
         width: 100%;
         height: 50%;
-    }
-    .plano-baixo{
-        margin-top: -10%;
+        margin-top: -15%;
     }
 
     .plano-cima h1,
@@ -817,9 +1101,196 @@ aside{
 
 }
 
-@media screen and (min-width:501px) and (max-width:800px) {
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
     
+    .plano{
+        height: 105%;
+        display: block;
+        width: 100%;
+    }
 
+    .plano-container{
+        display: flex;
+        width: 100%;
+    }
+
+    .plano-titulo{
+        width: 100%;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+
+    .plano-titulo h1{
+        font-size: 1.5rem;
+    }
+
+    .plano-left{
+        display: block;
+        width: 35%;
+        margin-left: 0.5%;
+        margin-bottom: 8%;
+    }
+ 
+    .plano-left h1{
+        font-size: 2rem;
+    }
+    
+    .plano-left h2{
+        font-size: 1rem;
+    }
+    
+    .plano-left span{
+        font-size: 2rem;
+    }
+    
+   
+    .plano-left p{
+        font-size: 0.8rem;
+    }
+    
+    .plano-left i{
+        font-size: 0.8rem;
+    }
+
+    .plano-right{
+        margin-top: 2%;
+        width: 50%;
+    }
+
+    .plano-right-container{
+        margin-top: -1%;
+        margin-left: 1%;
+    }
+
+    .plano-left-container{
+        margin-top: -1%;
+        margin-left: 13%;
+    }
+
+    .plano-right-container, .plano-right-container, 
+    .plano-cima, .plano-baixo{
+        display: block;
+        flex-direction: column;
+    }
+
+    .plano-cima{
+        width: 100%;
+        height: 38%;
+    }
+    .plano-baixo{
+        width: 100%;
+        height: 38%;
+    }
+
+    .plano-cima h1,
+    .plano-cima span,
+    .plano-cima h2,
+    .plano-baixo h1,
+    .plano-baixo span,
+    .plano-baixo h2{
+        font-size: 1rem;
+        margin-top: 10%;
+    }
+
+    .plano-cima p,
+    .plano-baixo p{
+        font-size: 0.8rem;
+        margin-top: 10%;
+    }
+
+    .plano-right-container{
+        margin-right: -10%;
+    }
+
+    .plano-left-container{
+        margin-right: -10%;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+
+    .plano{
+        height: 105%;
+        display: block;
+        width: 105%;
+    }
+
+    .plano-container{
+        display: flex;
+        width: 110%;
+    }
+
+    .plano-titulo{
+        width: 105%;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    .plano-titulo h1{
+        font-size: 1.5rem;
+    }
+
+    .plano-left{
+        display: block;
+        width: 30%;
+        margin-left: 0.5%;
+        margin-bottom: 8%;
+    }
+
+    .plano-right{
+        margin-top: 2%;
+        width: 40%;
+    }
+
+    .plano-right-container{
+        margin-top: -1%;
+        margin-left: 1%;
+    }
+
+    .plano-left-container{
+        margin-top: -1%;
+        margin-left: 13%;
+    }
+
+    .plano-right-container, .plano-right-container, 
+    .plano-cima, .plano-baixo{
+        display: block;
+        flex-direction: column;
+    }
+
+    .plano-cima{
+        width: 100%;
+        height: 38%;
+    }
+    .plano-baixo{
+        width: 100%;
+        height: 38%;
+    }
+
+    .plano-cima h1,
+    .plano-cima span,
+    .plano-cima h2,
+    .plano-baixo h1,
+    .plano-baixo span,
+    .plano-baixo h2{
+        font-size: 1rem;
+        margin-top: 10%;
+    }
+
+    .plano-cima p,
+    .plano-baixo p{
+        font-size: 0.8rem;
+        margin-top: 10%;
+    }
+
+    .plano-right-container{
+        margin-right: -10%;
+    }
+
+    .plano-left-container{
+        margin-right: -10%;
+    }
 
 }
 
@@ -871,7 +1342,7 @@ aside{
     box-shadow: 7px 2px 5px 0px rgba(0, 100, 0, 0.363);
 }
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation:portrait) {
     
     .dicas{
         display: block;
@@ -915,17 +1386,19 @@ aside{
 
 }
 
-@media screen and (min-width:501px) and (max-width:800px) {
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
     
     .dicas{
         display: block;
         height: 100%;
         width: 100%;
+        background: none;
     }
 
     .dicas-video{
         display: flex;
         margin-left: 2%;
+        margin-top: -10%;
     }
 
     .dicas-titulo{
@@ -934,8 +1407,13 @@ aside{
     }
 
     .dicas-titulo h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-top: 10%;
+    }
+
+    .dicas-video{
+        display: flex;
+        margin-bottom: 5px;
     }
 
     .video1, .video2{
@@ -943,21 +1421,52 @@ aside{
     }
 
     .video1 iframe, .video2 iframe{
-        display: block;
-        width: 30%;
-        height: 50%;
+        width: 300px;
+        height: 350px;
     }
 
     .video1{
-        margin-bottom: -10%;
+        margin-right: 1%;
     }
 
     .dicas-img img{
         width: 100%;
-        margin-top: -7%;
+        margin-top: -10%;
     }
 
 
+}
+
+
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+
+    .dicas{
+        background: none;
+    }
+
+    .dicas-titulo h1{
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+
+    .video1 iframe, .video2 iframe{
+        width: 400px;
+        height: 360px;
+    }
+
+    .video1, .video2{
+        box-shadow: none;
+    }
+
+    .dicas-video{
+        display: flex;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    .dicas-img img{
+        margin-top: -3%;
+    }
 }
 
 /*DEPOIMENTOS*/
@@ -1021,7 +1530,7 @@ aside{
     box-shadow: 5px 5px 3px rgb(2,136,38,0.5);
 }
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation:portrait) {
    
     .depoimentos{
         height: 100%;
@@ -1049,9 +1558,31 @@ aside{
 
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
-    
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
 
+    .depoimentos-titulos h1{
+        font-size: 1.5rem;
+    }
+
+    .depoimentos-alunos img{
+        height: 180%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+}
+
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+
+    .depoimentos-titulos h1{
+        font-size: 1.5rem;
+    }
+
+    .depoimentos-alunos img{
+        height: 180%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
 
 }
 
@@ -1151,7 +1682,7 @@ aside{
     cursor: pointer;
 }
 
-@media screen and (min-width:0px) and (max-width:500px) {
+@media only screen and (max-width:480px) and (orientation:portrait) {
    
     .contato{
         height: 85vh;
@@ -1193,8 +1724,47 @@ aside{
 
 }
 
-@media screen and (min-width:481px) and (max-width:800px) {
+@media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
     
+    .contato{
+        height: 100vh;
+        width: 100%;
+    }
+
+    .contato-mensagem h1{
+        font-size: 2.5rem;
+        margin-top: 15%;
+    }
+
+    .contato-mensagem h2{
+        font-size: 1.5rem;
+        margin-top: 15%;
+    }
+    
+    .contato-container{
+        height: 100vh;
+    }
+
+    .contato-contato input[type="submit"]{
+        width: 35%;
+        margin-left: 25%;
+    }
+}
 
 
+@media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
+
+    .contato{
+        height: 100vh;
+        width: 100%;
+    }
+    
+    .contato-container{
+        height: 100vh;
+    }
+
+    .contato-contato input[type="submit"]{
+        width: 30%;
+        margin-left: 25%;
+    }
 }
