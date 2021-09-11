@@ -178,7 +178,7 @@ aside{
     
     .principal{
         height: 110vh;
-        width: 100vw;
+        width: 107%;
         overflow: hidden;
     }
 
@@ -192,7 +192,7 @@ aside{
     }
 
     #menu-opener{
-        margin-right: 90px;
+        margin-right: 20px;
     }
 
     .whatsapp-link{
@@ -474,7 +474,7 @@ aside{
     }
 
     .sobre-item img{
-        height: 200px;
+        height: 380px;
         margin-left: 57%;
     }
 }
@@ -653,7 +653,7 @@ aside{
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-left: 5%;
+        margin-left: 12%;
         position: relative;
     }
 
@@ -669,7 +669,7 @@ aside{
 
     .parallax{
         height: 30vh;
-        width: 100%;
+        width: 107%;
     }
 
     .db1, .db2, .db3, .db4{
@@ -713,7 +713,7 @@ aside{
     .diferencial{
         height: 100%;
         display: Flex;
-        width: 100%;
+        width: 107%;
     }
 
     .diferencial-banner{
@@ -1371,16 +1371,16 @@ aside{
     }
 
     .video1 iframe, .video2 iframe{
-        width: 100%;
+        width: 105%;
         height: 250px;
     }
 
     .video1{
-        margin-bottom: -10%;
+        margin-bottom: -5%;
     }
 
     .dicas-img img{
-        width: 100%;
+        width: 107%;
         margin-top: -7%;
     }
 
