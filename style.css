@@ -703,7 +703,7 @@ aside{
         position: absolute;
         margin-left: 50%;
         margin-top: 113%;
-        height: 47%;
+        height: 48%;
         margin-bottom: 5%;
         box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
     }
@@ -1029,7 +1029,7 @@ aside{
 
     .plano-container{
         display: block;
-        width: 100%;
+        width: 106%;
     }
 
     .plano-titulo{
@@ -1045,7 +1045,7 @@ aside{
     .plano-left{
         display: block;
         width: 90%;
-        margin-left: 3%;
+        margin-left: 5%;
     }
 
     .plano-right{
@@ -1054,7 +1054,7 @@ aside{
 
     .plano-right-container{
         margin-top: 2%;
-        margin-left: 4%;
+        margin-left: 6%;
     }
 
     .plano-left-container{
