@@ -188,11 +188,11 @@ aside{
 
     aside{
         display: flex;
-        margin-top: 30px;
+        margin-top: 0px;
     }
 
     #menu-opener{
-        margin-right: 20px;
+        margin-right: 10px;
     }
 
     .whatsapp-link{

@@ -2,10 +2,10 @@
 
 function menuToggle() {
     let menuMobile = document.getElementById('menu-mobile');
-    if (menuMobile.style.width == '150px') {
+    if (menuMobile.style.width == '110px') {
         menuMobile.style.width = '0px';
     } else {
-        menuMobile.style.width = '150px';
+        menuMobile.style.width = '110px';
     }
 }
 
