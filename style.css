@@ -334,16 +334,16 @@ aside{
 @media only screen and (max-width:480px) and (orientation: portrait) {
 
     .slogan h1{
-        font-size: 1.5rem;
-        margin-top: 50%;
+        font-size: 2rem;
+        margin-top: 60%;
         margin-left: 5%;
         width: 90%;
         text-align: justify;
     }
 
     .slogan p{
-        font-size: 1rem;
-        margin-top: 10%;
+        font-size: 1.3rem;
+        margin-top: 20%;
         margin-left: 5%;
         width: 90%;
         text-align: justify;
@@ -1050,6 +1050,7 @@ aside{
 
     .plano-right{
         margin-top: 5%;
+        margin-left: 5%;
     }
 
     .plano-right-container{
