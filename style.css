@@ -220,14 +220,14 @@ aside{
     }
 
     header{
-        width: 100%;
+        width: 120%;
         position: fixed;
         z-index: 9999;
     }
 
     .logo{
         font-size: 2rem;
-        width: 12%;
+        width: 20%;
         margin-top: 1.2%;
     }
 
@@ -242,17 +242,17 @@ aside{
     }
 
     .social ul{
-        margin-left: -25px;
+        margin-left: -75px;
     }
 
     .social li{
-        margin: 13px 20px 0 0;
+        margin: 13px 25px 0 0;
         font-size: 1.2rem;
     }
 
     .whatsapp-link{
-        bottom: 15%;
-        right: 15%;
+        bottom: 10%;
+        right: -2%;
     }
   
     .whatsapp-link a{
@@ -270,7 +270,7 @@ aside{
     }
 
     header{
-        width: 85%;
+        width: 100%;
     }
 
     .logo{
@@ -354,17 +354,19 @@ aside{
 @media only screen and (min-width:481px) and (max-width:800px) and (orientation:landscape) {
 
     .slogan h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
         margin-top: 20%;
         margin-left: 20px;
-        width: 80%;
+        width: 90%;
+        text-align: justify;
     }
 
     .slogan p{
         font-size: 0.8rem;
         margin-left: 20px;
         margin-top: 20px;
-        width: 75%;
+        width: 90%;
+        text-align: justify;
     }
 
 }
@@ -485,7 +487,7 @@ aside{
 
     .sobre{
         height: 100%;
-        width: 100%;
+        width: 114%;
     }
     
     .sobre-item h1{
@@ -518,7 +520,7 @@ aside{
 
     .sobre-item img{
         height: 350px;
-        margin-left: 65%;
+        margin-left: 72%;
     }
 
 }
@@ -715,7 +717,7 @@ aside{
     .diferencial{
         height: 100%;
         display: Flex;
-        width: 107%;
+        width: 120%;
     }
 
     .diferencial-banner{
@@ -738,7 +740,7 @@ aside{
 
     .parallax{
         height: 50vh;
-        width: 100%;
+        width: 120%;
     }
 
     .db1, .db2, .db3, .db4{
