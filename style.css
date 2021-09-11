@@ -178,7 +178,7 @@ aside{
     
     .principal{
         height: 110vh;
-        width: 107%;
+        width: 113%;
         overflow: hidden;
     }
 
@@ -199,14 +199,14 @@ aside{
         position: fixed;
         width: 30px;
         height: 30px;
-        bottom: 12%;
-        right: 15%;
+        bottom: 4%;
+        right: 6%;
         z-index: 9999 !important;
     }
         
     .whatsapp-link a{
         color: rgb(27, 216, 27);
-        font-size: 4rem;
+        font-size: 3rem;
     }
 
 }
@@ -334,17 +334,19 @@ aside{
 @media only screen and (max-width:480px) and (orientation: portrait) {
 
     .slogan h1{
-        font-size: 1rem;
-        margin-top: 80%;
+        font-size: 1.5rem;
+        margin-top: 50%;
         margin-left: 5%;
-        width: 80%;
+        width: 90%;
+        text-align: justify;
     }
 
     .slogan p{
-        font-size: 0.6rem;
+        font-size: 1rem;
         margin-top: 10%;
         margin-left: 5%;
-        width: 80%;
+        width: 90%;
+        text-align: justify;
     }
 
 }
@@ -475,7 +477,7 @@ aside{
 
     .sobre-item img{
         height: 380px;
-        margin-left: 57%;
+        margin-left: 62%;
     }
 }
 
@@ -646,7 +648,7 @@ aside{
     .diferencial{
         height: 100%;
         display: Flex;
-        width: 100%;
+        width: 107%;
     }
 
     .diferencial-banner{
@@ -669,7 +671,7 @@ aside{
 
     .parallax{
         height: 30vh;
-        width: 107%;
+        width: 113%;
     }
 
     .db1, .db2, .db3, .db4{
@@ -692,7 +694,7 @@ aside{
     .db2{
         position: absolute;
         margin-left: 50%;
-        height: 48.3%;
+        height: 48%;
         margin-bottom: 5%;
         box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
     }
@@ -700,7 +702,7 @@ aside{
     .db4{
         position: absolute;
         margin-left: 50%;
-        margin-top: 135%;
+        margin-top: 126.3%;
         height: 48%;
         margin-bottom: 5%;
         box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
@@ -1022,7 +1024,7 @@ aside{
     .plano{
         height: 120%;
         display: block;
-        width: 100%;
+        width: 106%;
     }
 
     .plano-container{
@@ -1043,7 +1045,7 @@ aside{
     .plano-left{
         display: block;
         width: 90%;
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     .plano-right{
@@ -1052,12 +1054,13 @@ aside{
 
     .plano-right-container{
         margin-top: 2%;
-        margin-left: 3%;
+        margin-left: 4%;
     }
 
     .plano-left-container{
         margin-top: 3%;
         margin-left: 13%;
+        padding-left: 7%;
     }
 
     .plano-right-container, .plano-right-container, 
@@ -1348,7 +1351,7 @@ aside{
         display: block;
         height: 100%;
         background: none;
-        width: 100%;
+        width: 106%;
     }
 
     .dicas-video{
@@ -1376,7 +1379,7 @@ aside{
     }
 
     .video1{
-        margin-bottom: -5%;
+        margin-bottom: 0%;
     }
 
     .dicas-img img{
@@ -1534,7 +1537,7 @@ aside{
    
     .depoimentos{
         height: 100%;
-        width: 100%;
+        width: 106%;
     }
 
     .depoimentos-titulos h1{
@@ -1547,8 +1550,8 @@ aside{
     }
 
     .depoimentos-alunos img{
-        height: 180%;
-        width: 655%;
+        height: 200%;
+        width: 700%;
 
     }
 
@@ -1687,7 +1690,8 @@ aside{
     .contato{
         height: 85vh;
         display: flex;
-        width: 100%;
+        width: 107%;
+        margin-left: 3%;
     }
 
     .developer{
