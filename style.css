@@ -913,12 +913,13 @@ aside{
         width: 65%;
         display: grid;
         grid-template-columns: 80% 80%;
-        grid-gap: 2%;
+        grid-gap: 0.5%;
         margin-top: 5%;
     }
 
     .plano-cima{
         height: 90%;
+        margin-right: 1%;
     }
 
     .plano-cima h1{
