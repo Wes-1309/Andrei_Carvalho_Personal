@@ -607,37 +607,37 @@ aside{
 }
 
 .diferencial-banner{
-    display: flex;
-    margin-top: 3%;
-    margin-left: 2%;
-    width: 90%;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-gap: 2%;
+    margin-left: 3%;
 }
 
-.db1, .db2, .db3, .db4{
+.db1{
     border: 1px solid darkgreen;
     box-shadow: 7px 2px 5px 0px rgba(0, 100, 0, 0.363);
     border-radius: 15px;
-    height: 50%;
+    height: 100%;
     padding: 30px 15px;
     margin-right: 2%;
-    width: 25%;
+    width: 100%;
 }
 
-.db1 img, .db2 img, .db3 img, .db4 img{
+.db1 img{
     height: 100px;
     width: 100px;
     margin-left: 31%;
     border-radius: 10px;
 }
 
-.db1 h2, .db2 h2, .db3 h2, .db4 h2{
+.db1 h2{
     text-align: center;
     width: 100%;
     margin-top: 15px;
     color: darkgreen;
 }
 
-.db1 p, .db2 p, .db3 p, .db4 p{
+.db1 p{
     text-align: center;
     width: 100%;
     margin-top: 15px;
@@ -654,11 +654,12 @@ aside{
     }
 
     .diferencial-banner{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 12%;
-        position: relative;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 5%;
+        margin-left: 10%;
+        margin-bottom: 15%;
+        margin-top: 5%;
     }
 
     .diferencial-titulo{
@@ -676,38 +677,21 @@ aside{
         width: 113%;
     }
 
-    .db1, .db2, .db3, .db4{
-        width: 45%;
-        height: 60%;
+    .db1{
+        width: 100%;
+        height: 100%;
         margin-bottom: 5%;
         box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
     }
 
-    .db1 img, .db2 img, .db3 img, .db4 img{
+    .db1 img{
         height: 80px;
         width: 80px;
         margin-left: 20%;
     }
 
-    .db1 h2, .db2 h2, .db3 h2, .db4 h2{
+    .db1 h2{
         font-size: 1.2rem;
-    }
-
-    .db2{
-        position: absolute;
-        margin-left: 50%;
-        height: 48%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
-    }
-
-    .db4{
-        position: absolute;
-        margin-left: 50%;
-        margin-top: 113%;
-        height: 48%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
     }
 
 }
@@ -718,14 +702,6 @@ aside{
         height: 100%;
         display: Flex;
         width: 120%;
-    }
-
-    .diferencial-banner{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 5%;
-        position: relative;
     }
 
     .diferencial-titulo{
@@ -743,40 +719,6 @@ aside{
         width: 120%;
     }
 
-    .db1, .db2, .db3, .db4{
-        width: 45%;
-        height: 60%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
-    }
-
-    .db1 img, .db2 img, .db3 img, .db4 img{
-        height: 80px;
-        width: 80px;
-        margin-left: 33%;
-    }
-
-    .db1 h2, .db2 h2, .db3 h2, .db4 h2{
-        font-size: 1.2rem;
-    }
-
-    .db2{
-        position: absolute;
-        margin-left: 50%;
-        height: 45%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
-    }
-
-    .db4{
-        position: absolute;
-        margin-left: 50%;
-        margin-top: 57%;
-        height: 45%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
-    }
-
 }
 
 @media only screen and (min-width:801px) and (max-width:1200px) and (orientation:landscape) {
@@ -785,14 +727,6 @@ aside{
         height: 100%;
         display: Flex;
         width: 120%;
-    }
-
-    .diferencial-banner{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-left: 5%;
-        position: relative;
     }
 
     .diferencial-titulo{
@@ -808,40 +742,6 @@ aside{
     .parallax{
         height: 50vh;
         width: 123%;
-    }
-
-    .db1, .db2, .db3, .db4{
-        width: 45%;
-        height: 60%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
-    }
-
-    .db1 img, .db2 img, .db3 img, .db4 img{
-        height: 80px;
-        width: 80px;
-        margin-left: 33%;
-    }
-
-    .db1 h2, .db2 h2, .db3 h2, .db4 h2{
-        font-size: 1.2rem;
-    }
-
-    .db2{
-        position: absolute;
-        margin-left: 50%;
-        height: 44%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
-    }
-
-    .db4{
-        position: absolute;
-        margin-left: 50%;
-        margin-top: 33.2%;
-        height: 42.5%;
-        margin-bottom: 5%;
-        box-shadow: 3px 2px 3px 0px rgba(0, 100, 0, 0.363);
     }
 
 }
@@ -877,6 +777,7 @@ aside{
     width: 90%;
     margin-left: 5%;
     margin-top: 3%;
+    margin-bottom: 5%;
     display: flex;
 }
 
@@ -934,17 +835,8 @@ aside{
 
 .plano-right{
     width: 65%;
-    display: flex;
-}
-
-.plano-right-container{
-    width: 100%;
-    margin-top: 2%;
-}
-
-.plano-left-container{
-    width: 100%;
-    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 27% 27% 27% 27%;
 }
 
 .plano-cima{
@@ -954,14 +846,16 @@ aside{
     padding: 0 20px;
     margin-right: 20px;
     margin-bottom: 30px;
+    height: 100%;
 }
 
 .plano-cima h1{
     color: rgb(27, 216, 27);
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: bolder;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
+    margin-top: 40px;
     text-transform: uppercase;
 }
 
@@ -969,7 +863,7 @@ aside{
     font-size: 1rem;
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: lighter;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .plano-cima h2{
@@ -977,6 +871,7 @@ aside{
     font-family: 'Baloo Chettan 2', cursive;
     font-weight: bolder;
     margin-bottom: 15px;
+    margin-top: 40px;
 }
 
 .plano-cima span{
@@ -984,42 +879,6 @@ aside{
     font-size: 2.5rem;
 }
 
-.plano-baixo{
-    text-align: center;
-    border: 1px solid green;
-    border-radius: 25px;
-    padding: 0 15px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.plano-baixo h1{
-    color: rgb(27, 216, 27);
-    font-size: 2.5rem;
-    font-family: 'Baloo Chettan 2', cursive;
-    font-weight: bolder;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-}
-
-.plano-baixo p{
-    font-size: 1rem;
-    font-family: 'Baloo Chettan 2', cursive;
-    font-weight: lighter;
-    margin-bottom: 20px;
-}
-
-.plano-baixo h2{
-    font-size: 1.5rem;
-    font-family: 'Baloo Chettan 2', cursive;
-    font-weight: bolder;
-    margin-bottom: 15px;
-}
-
-.plano-baixo span{
-    color: rgb(27, 216, 27);
-    font-size: 2.5rem;
-}
 
 @media only screen and (max-width:480px) and (orientation:portrait) {
     
@@ -1051,58 +910,33 @@ aside{
     }
 
     .plano-right{
+        width: 65%;
+        display: grid;
+        grid-template-columns: 80% 80%;
+        grid-gap: 2%;
         margin-top: 5%;
-        margin-left: 5%;
-    }
-
-    .plano-right-container{
-        margin-top: 2%;
-        margin-left: 6%;
-    }
-
-    .plano-left-container{
-        margin-top: 3%;
-        margin-left: 13%;
-        padding-left: 7%;
-    }
-
-    .plano-right-container, .plano-right-container, 
-    .plano-cima, .plano-baixo{
-        display: block;
-        flex-direction: column;
     }
 
     .plano-cima{
-        width: 100%;
-        height: 50%;
-        margin-top: -10%;
-    }
-    .plano-baixo{
-        width: 100%;
-        height: 50%;
-        margin-top: -15%;
+        height: 90%;
     }
 
-    .plano-cima h1,
-    .plano-cima span,
-    .plano-cima h2,
-    .plano-baixo h1,
-    .plano-baixo span,
-    .plano-baixo h2{
-        font-size: 1rem;
+    .plano-cima h1{
+        font-size: 1.7rem;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
-
-    .plano-cima p,
-    .plano-baixo p{
-        font-size: 0.8rem;
+     
+    .plano-cima h2{
+        font-size: 1.5rem;
+        font-family: 'Baloo Chettan 2', cursive;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        margin-top: 40px;
     }
-
-    .plano-right-container{
-        margin-right: -10%;
-    }
-
-    .plano-left-container{
-        margin-right: -10%;
+    
+    .plano-cima span{
+        font-size: 2rem;
     }
 
 }
