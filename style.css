@@ -910,7 +910,7 @@ aside{
     }
 
     .plano-right{
-        width: 65%;
+        width: 60%;
         display: grid;
         grid-template-columns: 80% 80%;
         grid-gap: 0.5%;
