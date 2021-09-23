@@ -178,7 +178,7 @@ aside{
     
     .principal{
         height: 110vh;
-        width: 113%;
+        width: 100%;
         overflow: hidden;
     }
 
@@ -478,8 +478,8 @@ aside{
     }
 
     .sobre-item img{
-        height: 380px;
-        margin-left: 62%;
+        height: 300px;
+        margin-left: 60%;
     }
 }
 
@@ -650,7 +650,7 @@ aside{
     .diferencial{
         height: 100%;
         display: Flex;
-        width: 107%;
+        width: 100%;
     }
 
     .diferencial-banner{
@@ -674,7 +674,7 @@ aside{
 
     .parallax{
         height: 30vh;
-        width: 113%;
+        width: 100%;
     }
 
     .db1{
@@ -885,7 +885,7 @@ aside{
     .plano{
         height: 120%;
         display: block;
-        width: 106%;
+        width: 100%;
     }
 
     .plano-container{
@@ -1189,7 +1189,7 @@ aside{
         display: block;
         height: 100%;
         background: none;
-        width: 106%;
+        width: 100%;
     }
 
     .dicas-video{
@@ -1379,7 +1379,7 @@ aside{
    
     .depoimentos{
         height: 100%;
-        width: 104%;
+        width: 100%;
     }
 
     .depoimentos-titulos h1{
@@ -1537,7 +1537,7 @@ aside{
     .contato{
         height: 85vh;
         display: flex;
-        width: 107%;
+        width: 100%;
         margin-left: 3%;
     }
 

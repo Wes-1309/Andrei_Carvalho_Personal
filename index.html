@@ -212,16 +212,17 @@
                 <h2>Entre em contato comigo para adaptar-mos o melhor treino a você!!</h2>
             </div>
             <div class="contato-contato">
-                <form>
+                <form action="https://formsubmit.co/wes.coelho@yahoo.com.br" method="POST">
                     <label for="">Nome:</label>
-                    <input type="text" placeholder="Escreva seu nome">
+                    <input type="text" id="name" name="name" placeholder="Escreva seu nome" required>
                     <label for="">Cel:</label>
-                    <input type="tel" maxlength="14" placeholder="(XX) XXXX-XXXX">
+                    <input type="tel" id="phone" name="phone" maxlength="14" placeholder="(XX) XXXX-XXXX" required>
                     <label for="">E-mail:</label>
-                    <input type="email" placeholder="nome@nome.com.br">
+                    <input type="email" id="mail" name="mail" placeholder="nome@nome.com.br" required>
+                    <input type="hidden" name="_captcha" value="false">
                     <label for="">Mensagem:</label>
-                    <textarea name="mensagem" id="" cols="1" rows="5" placeholder="Deixe sua mensagem"></textarea>
-                    <input type="submit">
+                    <textarea name="msg" id="msg" cols="1" rows="5" placeholder="Deixe sua mensagem" required></textarea>
+                    <input type="submit" target="_blank">
                 </form>
             </div>
 
